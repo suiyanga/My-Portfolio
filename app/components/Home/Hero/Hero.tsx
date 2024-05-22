@@ -27,7 +27,7 @@ const Hero = () => {
             data-aos="fade-left" 
             data-aos-delay="400" 
             className="text-[15px] xl:text-[25px] text-purple-300 font-bold"> 
-            Hello, I am
+            Hello, I&apos;m
             </h1>
             <h1 
             data-aos="fade-right" 
