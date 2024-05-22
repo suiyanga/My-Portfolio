@@ -7,7 +7,7 @@ import { BiEnvelope, BiMapPin, BiPhone } from 'react-icons/bi';
         <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] border-b-[1.4px]
          pb-5 border-gray-600 border-opacity-40 ">
             <div>
-            <div className="text-[24px] font-black text-white">
+            <div className="text-[22px] font-black text-white">
                 <span className="text-cyan-800">A</span>
                 <span className="text-cyan-800">U</span>
                 <span className="text-cyan-700">G</span>
@@ -18,7 +18,7 @@ import { BiEnvelope, BiMapPin, BiPhone } from 'react-icons/bi';
                 <span className="text-cyan-800">N</span>
                 <span className="text-cyan-800">E</span> 
             </div>
-            <h1 className="text-[14px] mt-[0.5rem] text-white opacity-70">
+            <h1 className="text-[12px] mt-[0.5rem] text-white opacity-70">
             Thank you for visiting! I will be starting a blog soon where I will be sharing insights on cybersecurity trends, hacks, writeups, AI topics. 
             Stay tuned for updates! In the meantime, feel free to follow my Medium account for related content.
             </h1>
@@ -26,40 +26,40 @@ import { BiEnvelope, BiMapPin, BiPhone } from 'react-icons/bi';
           </div>
           {/* 2nd part */}
         <div className="md:mx-auto">
-            <h1 className="text-white font-semibold mb-[1.4rem] text-[17px]">
+            <h1 className="text-white font-semibold mb-[1.4rem] text-[15px]">
                 Quick Links
             </h1>
-            <p className="text-[15px] text-white opacity-80 mb-[1rem] cursor-pointer hover:text-purple-400">
+            <p className="text-[12px] text-white opacity-80 mb-[1rem] cursor-pointer hover:text-purple-400">
                 About
             </p>
-            <p className="text-[15px] text-white opacity-80 mb-[1rem] cursor-pointer hover:text-purple-400">
+            <p className="text-[12px] text-white opacity-80 mb-[1rem] cursor-pointer hover:text-purple-400">
                 Skills
             </p>
-            <p className="text-[15px] text-white opacity-80 mb-[1rem] cursor-pointer hover:text-purple-400">
+            <p className="text-[12px] text-white opacity-80 mb-[1rem] cursor-pointer hover:text-purple-400">
                 Projects
             </p>
-            <p className="text-[15px] text-white opacity-80 mb-[1rem] cursor-pointer hover:text-purple-400">
+            <p className="text-[12px] text-white opacity-80 mb-[1rem] cursor-pointer hover:text-purple-400">
                 Contact
             </p>
           </div>
           {/* 3rd part */}
           <div className="lg:mx-auto">
-          <h1 className="text-white font-semibold mb-[1.4rem] text-[17px]">
+          <h1 className="text-white font-semibold mb-[1.4rem] text-[15px]">
                 Address
             </h1>
             <div className="flex items-center mt-[1rem] space-x-2">
                 <BiMapPin className="w-[1rem] h-[1rem] text-purple-400 "/>
-                <p className="text-[17px] font-normal text-white opacity-75"> 
+                <p className="text-[12px] font-normal text-white opacity-75"> 
                 Nairobi, Kenya </p>
             </div>
             <div className="flex items-center mt-[1rem] space-x-2">
                 <BiEnvelope className="w-[1rem] h-[1rem] text-purple-400 "/>
-                <p className="text-[17px] font-normal text-white opacity-75"> 
+                <p className="text-[12px] font-normal text-white opacity-75"> 
                 augustkinya@gmail.com </p>
             </div>
             <div className="flex items-center mt-[1rem] space-x-2">
                 <BiPhone className="w-[1rem] h-[1rem] text-purple-400 "/>
-                <p className="text-[17px] font-normal text-white opacity-75"> 
+                <p className="text-[12px] font-normal text-white opacity-75"> 
                 +254713341586 </p>
             </div>
           </div>
