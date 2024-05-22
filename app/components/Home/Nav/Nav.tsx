@@ -13,7 +13,7 @@ const Nav = ({openNav}:Props) => {
     <div className="h-[13vh] bg-[#181a1d]">
         <div className="flex items-center justify-between w-[90%] xl:w-[80%] h-full mx-auto">
             {/* Logo */}
-            <div className="text-[24px] font-black text-white">
+            <div className="text-[20px] font-black text-white">
                 <span className="text-cyan-800">A</span>
                 <span className="text-cyan-800">U</span>
                 <span className="text-cyan-700">G</span>
@@ -26,7 +26,7 @@ const Nav = ({openNav}:Props) => {
                 
             </div>
             {/*nav-links*/}
-                <ul className="lg:flex hidden text-white items-center space-x-6 xl:space-x-10">
+                <ul className="lg:flex hidden text-white text-xxs items-center space-x-6 xl:space-x-10">
                 <li className="navlink">
                     <Link href="/"> HOME </Link>
                 </li>
@@ -47,7 +47,7 @@ const Nav = ({openNav}:Props) => {
             <div className=" flex items-center space-x-6">
                 <Link href='/images/aks.pdf' download="CV" target="_blank">
                     <button className="group relative h-12 w-48 overflow-hidden 
-                    rounded-full bg-cyan-700 text-lg shadow">
+                    rounded-full bg-cyan-700 text-base shadow">
                         <span className="absolute inset-0 w-3 bg-purple-300 transition-all 
                         duration-300 ease-out group-hover:w-full block"></span>
                         <span className="relative flex items-center justify-center space-x-3 text-white">

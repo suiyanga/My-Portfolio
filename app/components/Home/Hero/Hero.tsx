@@ -26,20 +26,20 @@ const Hero = () => {
             <h1 
             data-aos="fade-left" 
             data-aos-delay="400" 
-            className="text-[15px] xl:text-[25px] text-purple-300 font-bold"> 
+            className="text-[10px] xl:text-[20px] text-purple-300 font-bold"> 
             Hello, I&apos;m
             </h1>
             <h1 
             data-aos="fade-right" 
             data-aos-delay="600" 
-            className="text-[25px] sm:text-[30px] lg:text-[45px] xl:text-[60px] font-extrabold text-white">
+            className="text-[20px] sm:text-[25px] lg:text-[35px] xl:text-[50px] font-extrabold text-white">
             <span className="text-cyan-600">Augustine </span> Suiyanga
             </h1>
             <TextEffect /> 
             <p 
             data-aos="fade-right" 
             data-aos-delay="800" 
-            className="text-[16px] xl:text[18px] text-white text-opacity-60 mt-[1.5rem]">
+            className="text-[13px] xl:text[15px] text-white text-opacity-60 mt-[1.5rem]">
             A recent graduate specializing in Information Security and Forensics and with experience in Software Development.
             Proficient with Information Security technologies including Pentesting, Vulnerability assessment, Endpoint security, 
             Network and application security and Digital forensics. In addition I have experience in building software applications 
