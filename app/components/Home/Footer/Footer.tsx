@@ -19,7 +19,7 @@ import { BiEnvelope, BiMapPin, BiPhone } from 'react-icons/bi';
                 <span className="text-cyan-800">E</span> 
             </div>
             <h1 className="text-[14px] mt-[0.5rem] text-white opacity-70">
-            Thank you for visiting! I'll be starting a blog soon where I'll be sharing insights on cybersecurity trends, hacks, writeups, AI and other relevant information security topics. 
+            Thank you for visiting! I will be starting a blog soon where I will be sharing insights on cybersecurity trends, hacks, writeups, AI topics. 
             Stay tuned for updates! In the meantime, feel free to follow my Medium account for related content.
             </h1>
             <a href="https://medium.com/@augustkinya" className="text-cyan-500 hover:underline">Follow me on Medium</a>
