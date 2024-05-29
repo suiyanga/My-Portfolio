@@ -13,7 +13,7 @@ const Nav = ({openNav}:Props) => {
     <div className="h-[13vh] bg-[#181a1d]">
         <div className="flex items-center justify-between w-[90%] xl:w-[80%] h-full mx-auto">
             {/* Logo */}
-            <div className="text-[22px] font-black text-white">
+            <div className=" sm:text-[18px] lg:text-[22px] font-black text-white">
                 <span className="text-cyan-800">A</span>
                 <span className="text-cyan-800">U</span>
                 <span className="text-cyan-700">G</span>
@@ -46,13 +46,13 @@ const Nav = ({openNav}:Props) => {
             {/* Download and Menu */}
             <div className=" flex items-center space-x-6">
                 <Link href='/images/aks.pdf' download="CV" target="_blank">
-                    <button className="group relative h-12 w-48 overflow-hidden 
+                    <button className="group relative h-12 w-40 sm:h-10 sm:w-32 md:h-12 md:w-48 overflow-hidden 
                     rounded-full bg-cyan-700 text-base shadow">
                         <span className="absolute inset-0 w-3 bg-purple-300 transition-all 
                         duration-300 ease-out group-hover:w-full block"></span>
                         <span className="relative flex items-center justify-center space-x-3 text-white">
                             <FaDownload />
-                            <span> Download CV </span>
+                            <span className=" text-sm sm:text-xs md:text-sm"> Download CV </span>
                         </span>
                     </button>
                 </Link>
