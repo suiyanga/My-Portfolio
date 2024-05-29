@@ -16,7 +16,7 @@ const SkillsCard = ({image, title}:Props) => {
         alt="Skill" 
         className=" mx-auto object-cover" 
         />
-        <h1 className="text-[18px] mt-[1rem] text-white font-normal">{title}</h1>
+        <h1 className="lg:text-[15px] sm:text-[13px] mt-[1rem] text-white font-normal">{title}</h1>
     </div>
   );
 };

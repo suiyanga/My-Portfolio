@@ -46,13 +46,14 @@ const Nav = ({openNav}:Props) => {
             {/* Download and Menu */}
             <div className=" flex items-center space-x-6">
                 <Link href='/images/aks.pdf' download="CV" target="_blank">
-                    <button className="group relative h-12 w-40 sm:h-10 sm:w-32 md:h-12 md:w-48 overflow-hidden 
+                    <button className="group relative h-10 w-24 sm:h-10 sm:w-32 md:h-12 md:w-48 overflow-hidden 
                     rounded-full bg-cyan-700 text-base shadow">
                         <span className="absolute inset-0 w-3 bg-purple-300 transition-all 
                         duration-300 ease-out group-hover:w-full block"></span>
                         <span className="relative flex items-center justify-center space-x-3 text-white">
-                            <FaDownload />
-                            <span className=" text-sm sm:text-xs md:text-sm"> Download CV </span>
+                            <FaDownload className="text-lg sm:text-base"/>
+                            <span className="inline sm:hidden"> CV </span>
+                            <span className=" hidden sm:inline sm:text-xs md:text-sm"> Download CV </span>
                         </span>
                     </button>
                 </Link>

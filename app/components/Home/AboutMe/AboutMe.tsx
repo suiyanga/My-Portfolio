@@ -11,7 +11,7 @@ const AboutMe = () => {
         headingPrimary="I Can Build Your Dream Website" 
         headingSub=" About Me" 
         />
-        <div className="text-[18px] w-[80%] mt-[5rem] md:mt-[3rem] mx-auto grid grid-cols-1 
+        <div className="lg:text-[17px] sm:text-[16px] w-[80%] mt-[5rem] md:mt-[3rem] mx-auto grid grid-cols-1 
         xl:grid-cols-2 items-center gap-[4rem] ">
           <div>
             <AboutInfoBox 

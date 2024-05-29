@@ -11,10 +11,10 @@ const Contacts = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[2rem] mt-[4rem] items-center w-[80%] m-auto">
             <div>
                 <p className="text-[17px] text-white opacity-75"> Get In Touch</p>
-                <h1 className="mt-[2rem] mb-[2rem] text-[30px] sm:text-[25px] text-purple-400 font-bold">
+                <h1 className="mt-[2rem] mb-[2rem] lg:text-[30px] sm:text-[25px] text-purple-400 font-bold">
                     +254713341586
                 </h1>
-                <h1 className="mt-[2rem] mb-[2rem] text-[30px] sm:text-[25px] text-purple-400 font-bold">
+                <h1 className="mt-[2rem] mb-[2rem] sm:text-[25px] lg:text-[30px] text-purple-400 font-bold">
                     augustkinya@gmail.com
                 </h1>
             </div>

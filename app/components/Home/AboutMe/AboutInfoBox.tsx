@@ -11,11 +11,11 @@ const AboutInfoBox = ({text1, text2}:Props) => {
     <div className="block sm:flex items-center mb-[2rem] justify-between">
         <div className="flex mb-4 sm:mb-0 items-center space-x-2">
             <BiCheckCircle className="w-[2rem] h-[2rem] text-cyan-500" />
-            <span className="text-[17px] text-white">{text1}</span>
+            <span className="lg:text-[17px] sm:text-[16px] text-white">{text1}</span>
         </div>
         <div className="flex mb-4 sm:mb-0 items-center space-x-2">
             <BiCheckCircle className="w-[2rem] h-[2rem] text-cyan-500" />
-            <span className="text-[17px] text-white">{text2}</span>
+            <span className="lg:text-[17px] sm:text-[16px] text-white">{text2}</span>
         </div>
     </div>
   );

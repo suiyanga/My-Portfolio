@@ -45,17 +45,6 @@ const Hero = () => {
             Network and application security and Digital forensics. In addition I have experience in building software applications 
             using HTML, Tailwind CSS, React, TypeScript, Next JS, Python & Laravel.  
             </p>
-            <button 
-            data-aos="zoom-in" 
-            data-aos-delay="1000" 
-            className="group mt-[2rem] relative h-12 w-48 overflow-hidden 
-                    rounded-full bg-cyan-700 text-lg shadow">
-                        <span className="absolute inset-0 w-3 bg-purple-300 transition-all 
-                        duration-300 ease-out group-hover:w-full block"></span>
-                        <span className="relative flex items-center justify-center space-x-3 text-white">
-                            <span> About Me </span>
-                        </span>
-                    </button>
         </div>
         </div> 
     </div>
