@@ -13,7 +13,7 @@ const Nav = ({openNav}:Props) => {
     <div className="h-[13vh] bg-[#181a1d]">
         <div className="flex items-center justify-between w-[90%] xl:w-[80%] h-full mx-auto">
             {/* Logo */}
-            <div className=" sm:text-[18px] lg:text-[22px] font-black text-white">
+            <div className=" text-[18px] lg:text-[22px] font-black text-white">
                 <span className="text-cyan-800">A</span>
                 <span className="text-cyan-800">U</span>
                 <span className="text-cyan-700">G</span>
