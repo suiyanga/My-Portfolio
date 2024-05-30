@@ -18,7 +18,7 @@ const MobileNav = ({closeNav, showNav}:Props) => {
         <div className={'fixed ${navOpenStyle} top-0 transform transition-all duration-500 z-[10000] left-0 right-0 bottom-0 bg-black opacity-70 w-full h-[100vh]'}
         ></div>
         {/* nav-links */}
-        <ul className={'text-white ${navOpenStyle} fixed flex top-0 items-center justify-center flex-col h-[100vh] transform transition-all duration-300 delay-300 w-[60%] sm:w-[40%] bg-purple-300 space-y-10 z-[10000]'}>
+        <ul className={'text-white ${navOpenStyle} fixed flex top-0 items-center justify-center flex-col h-[100vh] transform transition-all duration-300 delay-300 w-[60%] sm:w-[40%] bg-purple-300 space-y-10 z-[10000] rounded-t-[20px] rounded-b-[20px]'}>
         <li className="navlink text-[15px] sm:text-[20px]">
             <Link href="/"> Home </Link>
         </li>
