@@ -35,7 +35,7 @@ const Projects = () => {
             data-aos-anchor-placement="top-center"
             data-aos-delay="200"
           >
-            <Link href="https://lms-liart-delta.vercel.app/t">
+            <Link href="https://job-portal-seven-phi.vercel.app/">
               <div className="block transform cursor-pointer hover:-translate-y-6 transition-all duration-200">
                 <div className="relative w-[100%] h-[200px] md:h-[300px]">
                   <Image 
@@ -46,7 +46,7 @@ const Projects = () => {
                     className="opacity-50"
                   />
                 </div>
-                <p className="text-center mt-2 text-white text-[1rem] ">Library Management System</p>
+                <p className="text-center mt-2 text-white text-[1rem] "> Responsive Job Portal</p>
               </div>
             </Link>
           </div>
@@ -55,7 +55,7 @@ const Projects = () => {
             data-aos-anchor-placement="top-center"
             data-aos-delay="400"
           >
-            <Link href="https://non-interactive-webpage-html-css-js.vercel.app/">
+            <Link href="https://lms-liart-delta.vercel.app/t">
               <div className="block transform cursor-pointer hover:-translate-y-6 transition-all duration-200">
                 <div className="relative w-[100%] h-[200px] md:h-[300px]">
                   <Image 
@@ -66,7 +66,7 @@ const Projects = () => {
                     className="opacity-50"
                   />
                 </div>
-                <p className="text-center mt-2 text-white text-[1rem]">Non Interactive Website</p>
+                <p className="text-center mt-2 text-white text-[1rem]">Library Management System</p>
               </div>
             </Link>
           </div>
