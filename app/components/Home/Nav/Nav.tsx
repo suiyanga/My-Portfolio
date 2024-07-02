@@ -45,7 +45,7 @@ const Nav = ({openNav}:Props) => {
               </ul>
             {/* Download and Menu */}
             <div className=" flex items-center space-x-6">
-                <Link href='/images/aks.pdf' download="CV" target="_blank">
+                <Link href='/images/CV-Portfolio.pdf' download="CV" target="_blank">
                     <button className="group relative h-10 w-24 sm:h-10 sm:w-32 md:h-12 md:w-48 overflow-hidden 
                     rounded-full bg-cyan-700 text-base shadow">
                         <span className="absolute inset-0 w-3 bg-purple-300 transition-all 
