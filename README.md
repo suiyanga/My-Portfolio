@@ -47,7 +47,18 @@ Feel free to reach out! This section provides all the necessary information to g
     ```bash
     cd portfolio
     ```
-3. Open `index.html` in your preferred web browser.
+3. Install the necessary dependencies:
+    ```bash
+    npm install
+    ```
+
+### Running the Application
+
+1. Start the development server:
+    ```bash
+    npm run dev
+    ```
+2. Open your web browser and go to `http://localhost:3000`.
 
 ## Usage
 
