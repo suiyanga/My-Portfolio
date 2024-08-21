@@ -55,12 +55,32 @@ const Projects = () => {
             data-aos-anchor-placement="top-center"
             data-aos-delay="400"
           >
+            <Link href="https://sportify-amber.vercel.app/">
+              <div className="block transform cursor-pointer hover:-translate-y-6 transition-all duration-200">
+                <div className="relative w-[100%] h-[200px] md:h-[300px]">
+                  <Image 
+                    src="/images/balls.jpg" 
+                    alt="Website"
+                    fill
+                    style={{ objectFit: 'contain' }}
+                    className="opacity-50"
+                  />
+                </div>
+                <p className="text-center mt-2 text-white text-[1rem]">Sportify Sports App</p>
+              </div>
+            </Link>
+          </div>
+          <div 
+            data-aos="fade-up" 
+            data-aos-anchor-placement="top-center"
+            data-aos-delay="200"
+          >
             <Link href="https://chatter-box-alpha.vercel.app/">
               <div className="block transform cursor-pointer hover:-translate-y-6 transition-all duration-200">
                 <div className="relative w-[100%] h-[200px] md:h-[300px]">
                   <Image 
                     src="/images/videocall.jpg" 
-                    alt="Website"
+                    alt="Rafiki"
                     fill
                     style={{ objectFit: 'contain' }}
                     className="opacity-50"
